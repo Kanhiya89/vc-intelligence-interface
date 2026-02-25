@@ -1,9 +1,5 @@
 # vc-intelligence-interface
 Precision AI Scout for VCs – VC Intelligence Interface + Live Enrichment
-Perfect Kanhiya 👌
-Now I’ll give you a Complete Step-by-Step GitHub Guide to make your assignment look professional and internship-ready.
-Follow this exactly.
-🚀 COMPLETE GITHUB GUIDE (FOR VC INTELLIGENCE ASSIGNMENT)
 1️⃣ Create Professional Repository
 Go to 👉 https://github.com/new⁠�
 Fill:
