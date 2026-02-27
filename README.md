@@ -1,33 +1,39 @@
 # VC Intelligence Interface
 
 ## Problem Statement
-The VC Intelligence Interface aims to streamline access to crucial data and insights in the venture capital domain, enabling better decision-making and investment strategies.
+The VC Intelligence Interface aims to streamline the processes involved in venture capital funding, enhancing the efficiency of investor and startup interactions through data-driven insights. By leveraging advanced analytics, it provides a clear view of investment opportunities and risks.
 
-## Solution Architecture
-The solution is built on a microservices architecture that allows for scalability and flexibility in handling various data sources. Key components include:
-- **Data Ingestion:** Collecting data from multiple sources using APIs and web scraping.
-- **Data Processing:** Utilizing ETL processes to clean and prepare data for analysis.
-- **User Interface:** A web application where users can visualize data and generate reports.
+## Architecture Diagram
+![Architecture Diagram](link_to_architecture_diagram)
 
-## Features
-- **Data Dashboard:** Interactive dashboards for real-time analytics.
-- **Report Generation:** Customizable reports that can be exported in multiple formats.
-- **User Management:** Role-based access control to ensure data security.
+## Live Enrichment Flow
+The live enrichment process involves the integration of real-time data from various sources to enhance the decision-making capabilities of investors. This includes:
+1. Data Collection
+2. Processing
+3. Analysis
 
-## Security Approach
-Security is a top priority, and we implement the following measures:
-- **Data Encryption:** All sensitive data is encrypted both at rest and in transit.
-- **Authentication & Authorization:** Multi-factor authentication for users and encrypted tokens for API access.
+## Thesis Scoring Logic
+The thesis scoring logic evaluates potential investments based on predefined metrics, providing a quantitative assessment that aids investors in their decision-making process. Key factors include financial health, market trends, and historical performance.
 
-## Deployment
-The application can be deployed via Docker for reliable and consistent execution. Ensure that the necessary environment variables are configured prior to deployment.
+## Security Implementation
+To ensure the safety and integrity of sensitive data, the VC Intelligence Interface implements:
+- OAuth 2.0 for secure authentication
+- Data encryption during transmission and storage
+- Regular security audits and compliance checks
 
-## How to Run Locally
+## Deployment Instructions
+To deploy the VC Intelligence Interface, follow these steps:
 1. Clone the repository: `git clone https://github.com/Kanhiya89/vc-intelligence-interface`
-2. Navigate to the project directory: `cd vc-intelligence-interface`
-3. Run Docker Compose: `docker-compose up` to start the application.
-4. Access the application at `http://localhost:8000`.
+2. Install dependencies: `npm install`
+3. Set up environment variables in a `.env` file.
+4. Start the application: `npm start`
 
+## Tech Stack
+The tech stack used in the VC Intelligence Interface includes:
+- Frontend: React.js
+- Backend: Node.js, Express
+- Database: MongoDB
+- Authentication: OAuth 2.0
 
-### Note
-Refer to the official documentation for more detailed setup instructions and guidelines for contributing to the project.
+## Conclusion
+The VC Intelligence Interface offers a comprehensive solution for venture capitalists, enabling informed decision-making and promoting successful investments.
